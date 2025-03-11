@@ -1,0 +1,63 @@
+Test Cases for Project 3,,,,,,,,,,
+ id,Test Case,Precondition,Steps,Test Technique,Test Data,Expected Result,Environment,Actual Result,Test Status (Pass / Fail) ,"Jira Bug Link 
+(if applicable)"
+t-1,Check that total travel time is calculated correctly for Aero Taxi,"1) The Server has already started.
+2) Open the Network panel in DevTools 
+3) Find the response types 
+4) Right-click on Types-> Override content
+5) Input the text which overrides sent: [{""id"":""car"",""name"":""Car"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""walk"",""name"":""Walk"",""icons"":{""inactive"":""walk.svg"",""active"":""walk-active.svg""}},{""id"":""taxi"",""name"":""Taxi"",""icons"":{""inactive"":""taxi.svg"",""active"":""taxi-active.svg""}},{""id"":""bike"",""name"":""Bike"",""icons"":{""inactive"":""bike.svg"",""active"":""bike-active.svg""}},{""id"":""scooter"",""name"":""Scooter"",""icons"":{""inactive"":""scooter.svg"",""active"":""scooter-active.svg""}},{""id"":""drive"",""name"":""Drive"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""aero"",""name"":""Air taxi"",""icons"":{""inactive"":""helicopter.svg"",""active"":""helicopter-active.svg""}}]
+","1) Type in the field From ""East""
+2) Type in the field To ""1300""
+3) Choose Custom mode from options below
+4) Choose helicopter icon",positive testing,"East- to the field From
+1300- to the field To
+
+",In the Custom mode will appear helicopter icon. Choosing this icon will show approximate total time of travel by Aero Taxi(travel time(distance between points*the average speed of the vehicle during specific day time),"Windows 11, Google Chrome Browser; Google Chrome version 130.0.6723.92 (Official Build) (64-bit)","Choosing the icon helicopter refreshes the page. After refreshing the page is blank, nothing is displayed.",Fail,https://ulyanamalyutina60195.atlassian.net/browse/BRP3UM-1?atlOrigin=eyJpIjoiZWI4ZWMxMzExOWJhNDg1NWIxZmMxMWQ5YTM1MWZmYTUiLCJwIjoiaiJ9
+t-2,Check that total travel cost is calculated correctly for Aero Taxi,"1) The Server has already started.
+2) Open the Network panel in DevTools 
+3) Find the response types 
+4) Right-click on Types-> Override content
+5) Input the text which overrides sent: [{""id"":""car"",""name"":""Car"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""walk"",""name"":""Walk"",""icons"":{""inactive"":""walk.svg"",""active"":""walk-active.svg""}},{""id"":""taxi"",""name"":""Taxi"",""icons"":{""inactive"":""taxi.svg"",""active"":""taxi-active.svg""}},{""id"":""bike"",""name"":""Bike"",""icons"":{""inactive"":""bike.svg"",""active"":""bike-active.svg""}},{""id"":""scooter"",""name"":""Scooter"",""icons"":{""inactive"":""scooter.svg"",""active"":""scooter-active.svg""}},{""id"":""drive"",""name"":""Drive"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""aero"",""name"":""Air taxi"",""icons"":{""inactive"":""helicopter.svg"",""active"":""helicopter-active.svg""}}]
+","1) Type in the field From ""East""
+2) Type in the field To ""1300""
+3) Choose Custom mode from options below
+4) Choose helicopter icon",positive testing,"East- to the field From
+1300- to the field To
+
+",In the Custom mode will appear helicopter icon. Choosing this icon will show approximate total cost of travel by Aero Taxi(travel cost(travel time*average cost of the vehicle),"Windows 11, Google Chrome Browser; Google Chrome version 130.0.6723.92 (Official Build) (64-bit)","Choosing the icon helicopter refreshes the page. After refreshing the page is blank, nothing is displayed.",Fail,https://ulyanamalyutina60195.atlassian.net/browse/BRP3UM-2?atlOrigin=eyJpIjoiMTc3ZDE5ZTc0MWY4NDFlNWFjYTY2ZjM4ZjJiZjIxZmQiLCJwIjoiaiJ9
+t-3,Check that calculation result displays total travel time for Aero Taxi,"1) The Server has already started.
+2) Open the Network panel in DevTools 
+3) Find the response types 
+4) Right-click on Types-> Override content
+5) Input the text which overrides sent: [{""id"":""car"",""name"":""Car"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""walk"",""name"":""Walk"",""icons"":{""inactive"":""walk.svg"",""active"":""walk-active.svg""}},{""id"":""taxi"",""name"":""Taxi"",""icons"":{""inactive"":""taxi.svg"",""active"":""taxi-active.svg""}},{""id"":""bike"",""name"":""Bike"",""icons"":{""inactive"":""bike.svg"",""active"":""bike-active.svg""}},{""id"":""scooter"",""name"":""Scooter"",""icons"":{""inactive"":""scooter.svg"",""active"":""scooter-active.svg""}},{""id"":""drive"",""name"":""Drive"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""aero"",""name"":""Air taxi"",""icons"":{""inactive"":""helicopter.svg"",""active"":""helicopter-active.svg""}}]
+","1) Type in the field From ""East""
+2) Type in the field To ""1300""
+3) Choose Custom mode from options below
+4) Choose helicopter icon",positive testing,"East- to the field From
+1300- to the field To
+
+",In the Custom mode will appear helicopter icon. Choosing this icon will show approximate total time of travel by Aero Taxi,"Windows 11, Google Chrome Browser; Google Chrome version 130.0.6723.92 (Official Build) (64-bit)","Choosing the icon helicopter refreshes the page. After refreshing the page is blank, nothing is displayed.",Fail,https://ulyanamalyutina60195.atlassian.net/browse/BRP3UM-1?atlOrigin=eyJpIjoiZWI4ZWMxMzExOWJhNDg1NWIxZmMxMWQ5YTM1MWZmYTUiLCJwIjoiaiJ9
+t-4,Check that calculation result displays total travel cost for Aero Taxi,"1) The Server has already started.
+2) Open the Network panel in DevTools 
+3) Find the response types 
+4) Right-click on Types-> Override content
+5) Input the text which overrides sent: [{""id"":""car"",""name"":""Car"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""walk"",""name"":""Walk"",""icons"":{""inactive"":""walk.svg"",""active"":""walk-active.svg""}},{""id"":""taxi"",""name"":""Taxi"",""icons"":{""inactive"":""taxi.svg"",""active"":""taxi-active.svg""}},{""id"":""bike"",""name"":""Bike"",""icons"":{""inactive"":""bike.svg"",""active"":""bike-active.svg""}},{""id"":""scooter"",""name"":""Scooter"",""icons"":{""inactive"":""scooter.svg"",""active"":""scooter-active.svg""}},{""id"":""drive"",""name"":""Drive"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""aero"",""name"":""Air taxi"",""icons"":{""inactive"":""helicopter.svg"",""active"":""helicopter-active.svg""}}]
+","1) Type in the field From ""East""
+2) Type in the field To ""1300""
+3) Choose Custom mode from options below
+4) Choose helicopter icon",positive testing,"East- to the field From
+1300- to the field To
+
+",In the Custom mode will appear helicopter icon. Choosing this icon will show approximate total cost of travel by Aero Taxi,"Windows 11, Google Chrome Browser; Google Chrome version 130.0.6723.92 (Official Build) (64-bit)","Choosing the icon helicopter refreshes the page. After refreshing the page is blank, nothing is displayed.",Fail,https://ulyanamalyutina60195.atlassian.net/browse/BRP3UM-2?atlOrigin=eyJpIjoiMTc3ZDE5ZTc0MWY4NDFlNWFjYTY2ZjM4ZjJiZjIxZmQiLCJwIjoiaiJ9
+t-5,Check that calculation result of travel time and total cost are displayed for Aero Taxi,"1) The Server has already started.
+2) Open the Network panel in DevTools 
+3) Find the response types 
+4) Right-click on Types-> Override content
+5) Input the text which overrides sent: [{""id"":""car"",""name"":""Car"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""walk"",""name"":""Walk"",""icons"":{""inactive"":""walk.svg"",""active"":""walk-active.svg""}},{""id"":""taxi"",""name"":""Taxi"",""icons"":{""inactive"":""taxi.svg"",""active"":""taxi-active.svg""}},{""id"":""bike"",""name"":""Bike"",""icons"":{""inactive"":""bike.svg"",""active"":""bike-active.svg""}},{""id"":""scooter"",""name"":""Scooter"",""icons"":{""inactive"":""scooter.svg"",""active"":""scooter-active.svg""}},{""id"":""drive"",""name"":""Drive"",""icons"":{""inactive"":""car.svg"",""active"":""car-active.svg""}},{""id"":""aero"",""name"":""Air taxi"",""icons"":{""inactive"":""helicopter.svg"",""active"":""helicopter-active.svg""}}]
+","1) Type in the field From ""East""
+2) Type in the field To ""1300""
+3) Choose Custom mode from options below
+4) Choose helicopter icon",positive testing,"East- to the field From
+1300- to the field To
+
+",In the Custom mode will appear helicopter icon. Choosing this icon will show approximate total cost and travel time for Aero Taxi,"Windows 11, Google Chrome Browser; Google Chrome version 130.0.6723.92 (Official Build) (64-bit)","Choosing the icon helicopter refreshes the page. After refreshing the page is blank, nothing is displayed.",Fail,https://ulyanamalyutina60195.atlassian.net/browse/BRP3UM-3?atlOrigin=eyJpIjoiZDE4OTNlZGZiZjk0NGZjM2FhZWQ2YWE5OTQ2NDdhMDQiLCJwIjoiaiJ9
