@@ -1,7 +1,7 @@
 ## Urban Routes QA Testing Project
 
 ## Project Overview
-The Urban Routes QA Testing Project is designed to test new and updated features in the Urban Routes application. The focus areas include:
+The Urban Routes QA Testing Project is designed to test new and updated features in the Urban Routes application. This testing project contains requirement analysis (decomposition of complex requirements into atomic blocks), cross-browser testing, layout adaptivity testing, test planning, test case creation (using the equivalence partitioning, boundary value analysis), environment setup, test execution (including Chrome development tools usage), test closure, navigating the pages of a test plan. The focus areas include:
 
 Carsharing Feature: An existing feature with significant code changes, requiring a full retest as if it were a new feature.
 
